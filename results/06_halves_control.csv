@@ -1,0 +1,17 @@
+subject,variant,session,halves_accuracy
+Ca-EEG2-1,per session,NeutralExposure,0.5733333333333333
+Ca-EEG2-1,per session,FC,0.45833333333333337
+Ca-EEG2-1,per session,Recall1,0.4833333333333334
+Ca-EEG2-1,raw,NeutralExposure,0.5733333333333333
+Ca-EEG2-1,raw,FC,0.45833333333333337
+Ca-EEG2-1,raw,Recall1,0.4833333333333334
+Ca-EEG3-4,per session,NeutralExposure,0.45666666666666667
+Ca-EEG3-4,per session,FC,0.5166666666666666
+Ca-EEG3-4,per session,Recall1,0.4766666666666667
+Ca-EEG3-4,per session,Recall2,0.4533333333333333
+Ca-EEG3-4,per session,Recall3,0.46
+Ca-EEG3-4,raw,NeutralExposure,0.45666666666666667
+Ca-EEG3-4,raw,FC,0.5166666666666666
+Ca-EEG3-4,raw,Recall1,0.4766666666666667
+Ca-EEG3-4,raw,Recall2,0.4533333333333333
+Ca-EEG3-4,raw,Recall3,0.46

@@ -1,0 +1,12 @@
+subject,session,size_gb,start_time,cells,frames,rate_hz,minutes,denoised,masks,centroids,max_projection,freezing_bouts,motion,shock_times_s,shock_amplitude_mA,sleep_states
+Ca-EEG2-1,FC,2.16,2021-10-14T10:11:24.777000-04:00,597,4076,14.93,4.6,True,True,True,True,22.0,True,"[120.0, 180.0, 240.0]",1.5,False
+Ca-EEG2-1,NeutralExposure,4.66,2021-10-12T10:44:18.744000-04:00,623,8880,14.93,10.0,True,True,True,True,43.0,True,,,False
+Ca-EEG2-1,OfflineDay2Session1,4.67,2021-10-14T09:24:27.677000-04:00,625,8929,14.93,10.0,True,True,True,True,,False,,,True
+Ca-EEG2-1,Recall1,2.31,2021-10-15T10:33:19.999000-04:00,336,4463,14.93,5.0,True,True,True,True,58.0,True,,,False
+Ca-EEG3-4,FC,2.13,2022-09-19T09:18:41.001000-04:00,783,4076,14.93,4.6,True,True,True,True,21.0,True,"[120.0, 180.0, 240.0]",0.25,False
+Ca-EEG3-4,NeutralExposure,4.72,2022-09-17T09:23:03.095000-04:00,851,8931,14.93,10.0,True,True,True,True,56.0,True,,,False
+Ca-EEG3-4,OfflineDay1Session1,4.63,2022-09-17T09:40:40.554000-04:00,711,8933,14.93,10.0,True,True,True,True,,False,,,True
+Ca-EEG3-4,OfflineDay2Session1,4.62,2022-09-19T09:30:07.344000-04:00,858,8933,14.93,10.0,True,True,True,True,,False,,,True
+Ca-EEG3-4,Recall1,2.3,2022-09-20T09:19:43.303000-04:00,758,4463,14.93,5.0,True,True,True,True,33.0,True,,,False
+Ca-EEG3-4,Recall2,2.32,2022-09-21T08:41:45.720000-04:00,831,4462,14.93,5.0,True,True,True,True,41.0,True,,,False
+Ca-EEG3-4,Recall3,2.34,2022-09-22T08:40:12.644000-04:00,809,4463,14.93,5.0,True,True,True,True,45.0,True,,,False

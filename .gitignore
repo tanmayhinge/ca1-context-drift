@@ -1,0 +1,21 @@
+# data is never committed
+data/
+*.nwb
+*.npz
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# latex build junk
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+
+# local assistant notes
+CLAUDE.md
+.claude/

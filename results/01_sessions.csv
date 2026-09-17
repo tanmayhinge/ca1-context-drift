@@ -1,0 +1,12 @@
+subject,session,day,context,date,cells,frames,rate_hz,minutes,median_event_rate_hz,freezing_percent,shocks
+Ca-EEG2-1,NeutralExposure,1,neutral,2021-10-12,623,8880,14.93,10.0,0.17,5.9,0
+Ca-EEG2-1,FC,3,shock,2021-10-14,597,4076,14.93,4.6,0.245,11.7,3
+Ca-EEG2-1,OfflineDay2Session1,3,homecage,2021-10-14,625,8929,14.93,10.0,0.189,,0
+Ca-EEG2-1,Recall1,4,shock,2021-10-15,336,4463,14.93,5.0,0.127,63.5,0
+Ca-EEG3-4,NeutralExposure,1,neutral,2022-09-17,851,8931,14.93,10.0,0.333,10.1,0
+Ca-EEG3-4,OfflineDay1Session1,1,homecage,2022-09-17,711,8933,14.93,10.0,0.332,,0
+Ca-EEG3-4,FC,3,shock,2022-09-19,783,4076,14.93,4.6,0.439,6.0,3
+Ca-EEG3-4,OfflineDay2Session1,3,homecage,2022-09-19,858,8933,14.93,10.0,0.32,,0
+Ca-EEG3-4,Recall1,4,shock,2022-09-20,758,4463,14.93,5.0,0.378,8.5,0
+Ca-EEG3-4,Recall2,5,novel,2022-09-21,831,4462,14.93,5.0,0.381,14.6,0
+Ca-EEG3-4,Recall3,6,neutral,2022-09-22,809,4463,14.93,5.0,0.405,16.9,0

@@ -1,0 +1,5 @@
+subject,variant,sessions,balanced_accuracy
+Ca-EEG2-1,per session,['Recall1'],0.52
+Ca-EEG2-1,raw,['Recall1'],0.35
+Ca-EEG3-4,per session,"['Recall1', 'Recall3']",0.49666666666666665
+Ca-EEG3-4,raw,"['Recall1', 'Recall3']",0.5233333333333333

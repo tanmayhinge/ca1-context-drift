@@ -1,0 +1,155 @@
+{
+ "bin_seconds": 10,
+ "subjects": {
+  "Ca-EEG2-1": {
+   "cells": 166,
+   "time_bins": 72,
+   "variance_pc1": 0.08258995625508002,
+   "variance_pc2": 0.0534436060260303,
+   "variance_first_two": 0.13603356228111033,
+   "components_kept": 72,
+   "components_for_half_the_variance": 12
+  },
+  "Ca-EEG3-4": {
+   "cells": 223,
+   "time_bins": 132,
+   "variance_pc1": 0.03940302069380458,
+   "variance_pc2": 0.03163698692890699,
+   "variance_first_two": 0.07104000762271157,
+   "components_kept": 132,
+   "components_for_half_the_variance": 26
+  }
+ },
+ "separation": [
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "days_apart": 2,
+   "same_context": false,
+   "separation": 4.007463998676906,
+   "separation_shuffled_labels": 2.3693405072181246,
+   "separation_above_chance": 1.6381234914587814
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "days_apart": 3,
+   "same_context": false,
+   "separation": 3.186231964252171,
+   "separation_shuffled_labels": 2.0342626590933968,
+   "separation_above_chance": 1.151969305158774
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "days_apart": 1,
+   "same_context": true,
+   "separation": 4.435097557859272,
+   "separation_shuffled_labels": 1.9963852089566805,
+   "separation_above_chance": 2.438712348902592
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "days_apart": 2,
+   "same_context": false,
+   "separation": 4.1714315294244635,
+   "separation_shuffled_labels": 2.9861215864142063,
+   "separation_above_chance": 1.1853099430102572
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "days_apart": 3,
+   "same_context": false,
+   "separation": 4.627864878305851,
+   "separation_shuffled_labels": 2.698226863511114,
+   "separation_above_chance": 1.9296380147947367
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall2",
+   "days_apart": 4,
+   "same_context": false,
+   "separation": 4.127737261498641,
+   "separation_shuffled_labels": 2.8391055574408903,
+   "separation_above_chance": 1.2886317040577508
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall3",
+   "days_apart": 5,
+   "same_context": true,
+   "separation": 4.984067224678992,
+   "separation_shuffled_labels": 2.6976540968640075,
+   "separation_above_chance": 2.286413127814985
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "days_apart": 1,
+   "same_context": true,
+   "separation": 3.1406229633063236,
+   "separation_shuffled_labels": 2.9627367798149176,
+   "separation_above_chance": 0.17788618349140606
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall2",
+   "days_apart": 2,
+   "same_context": false,
+   "separation": 3.2149103698573183,
+   "separation_shuffled_labels": 3.2262136014460805,
+   "separation_above_chance": -0.01130323158876223
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall3",
+   "days_apart": 3,
+   "same_context": false,
+   "separation": 3.8831409383885496,
+   "separation_shuffled_labels": 3.147177081673612,
+   "separation_above_chance": 0.7359638567149376
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall2",
+   "days_apart": 1,
+   "same_context": false,
+   "separation": 3.3580835572703145,
+   "separation_shuffled_labels": 2.845348628307671,
+   "separation_above_chance": 0.5127349289626433
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall3",
+   "days_apart": 2,
+   "same_context": false,
+   "separation": 4.322793107514051,
+   "separation_shuffled_labels": 2.7260315554585235,
+   "separation_above_chance": 1.5967615520555274
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall2",
+   "session_b": "Recall3",
+   "days_apart": 1,
+   "same_context": false,
+   "separation": 4.298861196665715,
+   "separation_shuffled_labels": 2.8080857049394807,
+   "separation_above_chance": 1.4907754917262346
+  }
+ ]
+}

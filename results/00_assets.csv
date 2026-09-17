@@ -1,0 +1,13 @@
+subject,session,size_gb,path,asset_id
+Ca-EEG2-1,FC,2.16,sub-Ca-EEG2-1/sub-Ca-EEG2-1_ses-FC_image+ophys.nwb,c2ca0ae4-f5d1-4fed-948f-a727f5e8b5a2
+Ca-EEG2-1,NeutralExposure,4.66,sub-Ca-EEG2-1/sub-Ca-EEG2-1_ses-NeutralExposure_image+ophys.nwb,6ba4d4e4-287f-450b-82fe-06f4f1376ea2
+Ca-EEG2-1,OfflineDay2Session1,4.67,sub-Ca-EEG2-1/sub-Ca-EEG2-1_ses-OfflineDay2Session1_ophys.nwb,30c993ba-cda2-4d04-84a2-c22372afc865
+Ca-EEG2-1,Recall1,2.31,sub-Ca-EEG2-1/sub-Ca-EEG2-1_ses-Recall1_image+ophys.nwb,d19355f8-e84f-4d57-a670-98faf57d13e6
+Ca-EEG2-1,Week,3.67,sub-Ca-EEG2-1/sub-Ca-EEG2-1_ses-Week.nwb,0ce578db-2786-47d7-bf9a-fee3abf2ebd9
+Ca-EEG3-4,FC,2.13,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-FC_image+ophys.nwb,5e50a3b7-a11a-424a-b50c-e3eb5f4884be
+Ca-EEG3-4,NeutralExposure,4.72,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-NeutralExposure_image+ophys.nwb,0e9666e8-8269-4da3-ab80-d215f91b5a5d
+Ca-EEG3-4,OfflineDay1Session1,4.63,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-OfflineDay1Session1_ophys.nwb,40c9201e-46f8-404d-a6a1-c951b6baa510
+Ca-EEG3-4,OfflineDay2Session1,4.62,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-OfflineDay2Session1_ophys.nwb,07a024b1-13f1-48aa-9248-c2cd110e846b
+Ca-EEG3-4,Recall1,2.3,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-Recall1_image+ophys.nwb,13aac459-9bf6-4f9e-a02b-aa87581cce4d
+Ca-EEG3-4,Recall2,2.32,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-Recall2_image+ophys.nwb,e791b7e3-cf61-48cf-8d8e-84cd2ee9f925
+Ca-EEG3-4,Recall3,2.34,sub-Ca-EEG3-4/sub-Ca-EEG3-4_ses-Recall3_image+ophys.nwb,d00cc5c1-9e81-4bb9-ba06-8871af0e70da

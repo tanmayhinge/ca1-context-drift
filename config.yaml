@@ -1,0 +1,73 @@
+# Every setting for the study lives here. No analysis script hard codes a number.
+
+dataset:
+  dandiset: "000718"
+  version: "0.260825.1902"        # the published version, so results are reproducible
+  cache_dir: "data/cache"
+
+# Paths inside the NWB files, confirmed in Phase 0 (results/00_nwb_tree.txt).
+nwb_paths:
+  deconvolved: "processing/ophys/Fluorescence/Deconvolved/data"
+  denoised: "processing/ophys/Fluorescence/Denoised/data"
+  timestamps: "processing/ophys/Fluorescence/Deconvolved/timestamps"
+  centroids: "processing/ophys/ImageSegmentation/PlaneSegmentation/ROICentroids"
+  masks: "processing/ophys/ImageSegmentation/PlaneSegmentation/image_mask"
+  max_projection: "processing/ophys/SegmentationImages/maximum_projection"
+  freezing_start: "processing/behavior/FreezingIntervals/start_time"
+  freezing_stop: "processing/behavior/FreezingIntervals/stop_time"
+  motion: "processing/behavior/MotionSeries/data"
+  shock_start: "stimulus/presentation/ShockStimuli/start_time"
+  cell_registration: "processing/cell_registration"
+
+# Which sessions exist, what context each one is, and which day of the experiment it is.
+# Day 1 is the neutral exposure for each mouse. Days come from the session start times.
+subjects:
+  Ca-EEG2-1:
+    shock_mA: 1.5               # strongly shocked group in the paper
+    behavioural_sessions: [NeutralExposure, FC, Recall1]
+    offline_sessions: [OfflineDay2Session1]
+    registration_file: Week     # the only file holding CellReg tables
+  Ca-EEG3-4:
+    shock_mA: 0.25              # weakly shocked group in the paper
+    behavioural_sessions: [NeutralExposure, FC, Recall1, Recall2, Recall3]
+    offline_sessions: [OfflineDay1Session1, OfflineDay2Session1]
+    registration_file: null     # none provided, so we match footprints ourselves
+
+contexts:
+  NeutralExposure: neutral
+  FC: shock
+  Recall1: shock
+  Recall2: novel
+  Recall3: neutral
+
+analysis:
+  seed: 20260917
+  activity_measure: deconvolved  # denoised is the robustness check
+  window_seconds: 300            # compare equal amounts of time from every session
+  fc_baseline_seconds: 120       # fear conditioning: use only the quiet period before shock 1
+  shock_exclusion_seconds: 30    # ignore this much after each shock, when shocks are included
+  bin_seconds: 1.0               # neighbouring frames are nearly identical, so bin to 1 s
+  # The bin by bin similarity measure has no dynamic range at 1 s: even two halves of the
+  # same session correlate at the shuffled level. It only separates from chance at 10 s
+  # and above. See results/04_bin_size.csv, written by scripts/04_similarity.py.
+  similarity_bin_seconds: 10
+  # An ensemble is the most active quarter of the cells in that session. An absolute
+  # activity threshold was tried first and rejected: Minian only keeps cells it could
+  # detect, so any fixed cut calls 84 to 100 percent of them active and overlap becomes
+  # meaningless. See results/03_overlap.md.
+  ensemble_percent: 25
+  ensemble_percent_checked: [10, 25, 50]
+  n_shuffles: 1000
+
+matching:
+  max_centroid_distance_px: 8    # candidate pairs must be closer than this after alignment
+  min_overlap: 0.3               # intersection over union needed to accept a pair
+  consensus_min_tables: 10       # CellReg triplets must appear in this many of the 19 tables
+
+decoding:
+  train_sessions: [NeutralExposure, FC]   # neutral versus shock, learned on days 1 and 3
+  block_cv_folds: 5                       # folds are contiguous time blocks, never random frames
+  regularisation_C: 1.0
+
+report:
+  figure_dpi: 300            # PNG resolution; the report uses the PDF version

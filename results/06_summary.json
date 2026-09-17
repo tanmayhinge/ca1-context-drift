@@ -1,0 +1,254 @@
+{
+ "train_sessions": [
+  "NeutralExposure",
+  "FC"
+ ],
+ "chance": 0.5,
+ "within_training_accuracy": {
+  "Ca-EEG2-1": 0.5874999999999999,
+  "Ca-EEG3-4": 0.7375
+ },
+ "shuffled_accuracy": {
+  "Ca-EEG2-1": 0.5029166666666667,
+  "Ca-EEG3-4": 0.4978333333333333
+ },
+ "pooled_held_out": [
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "sessions": [
+    "Recall1"
+   ],
+   "balanced_accuracy": 0.52
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "sessions": [
+    "Recall1",
+    "Recall3"
+   ],
+   "balanced_accuracy": 0.49666666666666665
+  }
+ ],
+ "tests": [
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "session": "NeutralExposure",
+   "day": 1,
+   "context": "neutral",
+   "in_training": true,
+   "days_from_training": 0,
+   "bins": 300,
+   "called_shock": 0.4533333333333333,
+   "accuracy": 0.5466666666666666,
+   "within_training_accuracy": 0.5874999999999999,
+   "shuffled_accuracy": 0.5029166666666667,
+   "shuffled_p95": 0.55875
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "session": "FC",
+   "day": 3,
+   "context": "shock",
+   "in_training": true,
+   "days_from_training": 0,
+   "bins": 120,
+   "called_shock": 0.9416666666666667,
+   "accuracy": 0.9416666666666667,
+   "within_training_accuracy": 0.5874999999999999,
+   "shuffled_accuracy": 0.5029166666666667,
+   "shuffled_p95": 0.55875
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "session": "Recall1",
+   "day": 4,
+   "context": "shock",
+   "in_training": false,
+   "days_from_training": 1,
+   "bins": 300,
+   "called_shock": 0.52,
+   "accuracy": 0.52,
+   "within_training_accuracy": 0.5874999999999999,
+   "shuffled_accuracy": 0.5029166666666667,
+   "shuffled_p95": 0.55875
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "NeutralExposure",
+   "day": 1,
+   "context": "neutral",
+   "in_training": true,
+   "days_from_training": 0,
+   "bins": 300,
+   "called_shock": 0.10666666666666667,
+   "accuracy": 0.8933333333333333,
+   "within_training_accuracy": 0.7375,
+   "shuffled_accuracy": 0.4978333333333333,
+   "shuffled_p95": 0.5583333333333333
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "FC",
+   "day": 3,
+   "context": "shock",
+   "in_training": true,
+   "days_from_training": 0,
+   "bins": 120,
+   "called_shock": 1.0,
+   "accuracy": 1.0,
+   "within_training_accuracy": 0.7375,
+   "shuffled_accuracy": 0.4978333333333333,
+   "shuffled_p95": 0.5583333333333333
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "Recall1",
+   "day": 4,
+   "context": "shock",
+   "in_training": false,
+   "days_from_training": 1,
+   "bins": 300,
+   "called_shock": 0.03666666666666667,
+   "accuracy": 0.03666666666666667,
+   "within_training_accuracy": 0.7375,
+   "shuffled_accuracy": 0.4978333333333333,
+   "shuffled_p95": 0.5583333333333333
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "Recall2",
+   "day": 5,
+   "context": "novel",
+   "in_training": false,
+   "days_from_training": 2,
+   "bins": 300,
+   "called_shock": 0.06666666666666667,
+   "accuracy": NaN,
+   "within_training_accuracy": 0.7375,
+   "shuffled_accuracy": 0.4978333333333333,
+   "shuffled_p95": 0.5583333333333333
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "Recall3",
+   "day": 6,
+   "context": "neutral",
+   "in_training": false,
+   "days_from_training": 3,
+   "bins": 300,
+   "called_shock": 0.043333333333333335,
+   "accuracy": 0.9566666666666667,
+   "within_training_accuracy": 0.7375,
+   "shuffled_accuracy": 0.4978333333333333,
+   "shuffled_p95": 0.5583333333333333
+  }
+ ],
+ "halves_control": [
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "session": "NeutralExposure",
+   "halves_accuracy": 0.5733333333333333
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "session": "FC",
+   "halves_accuracy": 0.45833333333333337
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "per session",
+   "session": "Recall1",
+   "halves_accuracy": 0.4833333333333334
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "raw",
+   "session": "NeutralExposure",
+   "halves_accuracy": 0.5733333333333333
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "raw",
+   "session": "FC",
+   "halves_accuracy": 0.45833333333333337
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "variant": "raw",
+   "session": "Recall1",
+   "halves_accuracy": 0.4833333333333334
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "NeutralExposure",
+   "halves_accuracy": 0.45666666666666667
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "FC",
+   "halves_accuracy": 0.5166666666666666
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "Recall1",
+   "halves_accuracy": 0.4766666666666667
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "Recall2",
+   "halves_accuracy": 0.4533333333333333
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "per session",
+   "session": "Recall3",
+   "halves_accuracy": 0.46
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "raw",
+   "session": "NeutralExposure",
+   "halves_accuracy": 0.45666666666666667
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "raw",
+   "session": "FC",
+   "halves_accuracy": 0.5166666666666666
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "raw",
+   "session": "Recall1",
+   "halves_accuracy": 0.4766666666666667
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "raw",
+   "session": "Recall2",
+   "halves_accuracy": 0.4533333333333333
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "variant": "raw",
+   "session": "Recall3",
+   "halves_accuracy": 0.46
+  }
+ ]
+}

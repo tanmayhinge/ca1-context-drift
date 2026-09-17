@@ -1,0 +1,102 @@
+{
+ "reference_session": "NeutralExposure",
+ "subjects": {
+  "Ca-EEG2-1": {
+   "cells_day1": 623,
+   "matched_per_session": {
+    "NeutralExposure": 623,
+    "FC": 368,
+    "Recall1": 209
+   },
+   "matched_all_behavioural": 166,
+   "matched_all_including_offline": 124
+  },
+  "Ca-EEG3-4": {
+   "cells_day1": 851,
+   "matched_per_session": {
+    "NeutralExposure": 851,
+    "FC": 545,
+    "Recall1": 500,
+    "Recall2": 496,
+    "Recall3": 438
+   },
+   "matched_all_behavioural": 223,
+   "matched_all_including_offline": 177
+  }
+ },
+ "cellreg_consensus_cells": 85,
+ "validation": [
+  {
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "cellreg_pairs": 278,
+   "our_pairs": 368,
+   "recovered": 268,
+   "recall": 0.9640287769784173,
+   "judged": 272,
+   "agreement": 0.9852941176470589,
+   "min_tables": 1,
+   "days_apart": 2
+  },
+  {
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "cellreg_pairs": 196,
+   "our_pairs": 368,
+   "recovered": 196,
+   "recall": 1.0,
+   "judged": 196,
+   "agreement": 1.0,
+   "min_tables": 10,
+   "days_apart": 2
+  },
+  {
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "cellreg_pairs": 179,
+   "our_pairs": 209,
+   "recovered": 167,
+   "recall": 0.9329608938547486,
+   "judged": 169,
+   "agreement": 0.9881656804733728,
+   "min_tables": 1,
+   "days_apart": 3
+  },
+  {
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "cellreg_pairs": 119,
+   "our_pairs": 209,
+   "recovered": 119,
+   "recall": 1.0,
+   "judged": 119,
+   "agreement": 1.0,
+   "min_tables": 10,
+   "days_apart": 3
+  },
+  {
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "cellreg_pairs": 181,
+   "our_pairs": 213,
+   "recovered": 169,
+   "recall": 0.9337016574585635,
+   "judged": 171,
+   "agreement": 0.9883040935672515,
+   "min_tables": 1,
+   "days_apart": 1
+  },
+  {
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "cellreg_pairs": 134,
+   "our_pairs": 213,
+   "recovered": 132,
+   "recall": 0.9850746268656716,
+   "judged": 133,
+   "agreement": 0.9924812030075187,
+   "min_tables": 10,
+   "days_apart": 1
+  }
+ ]
+}

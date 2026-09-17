@@ -1,0 +1,368 @@
+Internal structure of three representative files from DANDI 000718.
+
+==============================================================================
+Ca-EEG3-4  Recall1  (2.30 GB)
+==============================================================================
+acquisition/
+acquisition/OnePhotonSeries/
+acquisition/OnePhotonSeries/data  shape=(8935, 608, 608) dtype=uint8
+acquisition/OnePhotonSeries/dimension  shape=(2,) dtype=int32
+acquisition/OnePhotonSeries/timestamps  shape=(8935,) dtype=float64
+acquisition/Video Ca_EEG3-4_Recall1/
+acquisition/Video Ca_EEG3-4_Recall1/data  shape=(0, 0, 0) dtype=uint8
+acquisition/Video Ca_EEG3-4_Recall1/external_file  shape=(1,) dtype=object
+acquisition/Video Ca_EEG3-4_Recall1/format  shape=() dtype=object
+acquisition/Video Ca_EEG3-4_Recall1/timestamps  shape=(9000,) dtype=float64
+analysis/
+file_create_date  shape=(1,) dtype=object
+general/
+general/devices/
+general/devices/Microscope/
+general/devices/Microscope/ROI  shape=(2,) dtype=int32
+general/experiment_description  shape=() dtype=object
+general/experimenter  shape=(1,) dtype=object
+general/institution  shape=() dtype=object
+general/keywords  shape=(8,) dtype=object
+general/lab  shape=() dtype=object
+general/optophysiology/
+general/optophysiology/ImagingPlane/
+general/optophysiology/ImagingPlane/GreenChannel/
+general/optophysiology/ImagingPlane/GreenChannel/description  shape=() dtype=object
+general/optophysiology/ImagingPlane/GreenChannel/emission_lambda  shape=() dtype=float64
+general/optophysiology/ImagingPlane/OpticalChannel/
+general/optophysiology/ImagingPlane/OpticalChannel/description  shape=() dtype=object
+general/optophysiology/ImagingPlane/OpticalChannel/emission_lambda  shape=() dtype=float64
+general/optophysiology/ImagingPlane/description  shape=() dtype=object
+general/optophysiology/ImagingPlane/excitation_lambda  shape=() dtype=float64
+general/optophysiology/ImagingPlane/imaging_rate  shape=() dtype=float64
+general/optophysiology/ImagingPlane/indicator  shape=() dtype=object
+general/optophysiology/ImagingPlane/location  shape=() dtype=object
+general/related_publications  shape=(1,) dtype=object
+general/session_id  shape=() dtype=object
+general/source_script  shape=() dtype=object
+general/subject/
+general/subject/age  shape=() dtype=object
+general/subject/description  shape=() dtype=object
+general/subject/genotype  shape=() dtype=object
+general/subject/sex  shape=() dtype=object
+general/subject/species  shape=() dtype=object
+general/subject/strain  shape=() dtype=object
+general/subject/subject_id  shape=() dtype=object
+general/surgery  shape=() dtype=object
+general/virus  shape=() dtype=object
+identifier  shape=() dtype=object
+processing/
+processing/behavior/
+processing/behavior/FreezingIntervals/
+processing/behavior/FreezingIntervals/id  shape=(33,) dtype=int32
+processing/behavior/FreezingIntervals/start_time  shape=(33,) dtype=float64
+processing/behavior/FreezingIntervals/stop_time  shape=(33,) dtype=float64
+processing/behavior/FreezingIntervals/timeseries  shape=(33,) dtype=[('idx_start', '<i4'), ('count', '<i4'), ('timeseries', 'O')]
+processing/behavior/FreezingIntervals/timeseries_index  shape=(33,) dtype=uint8
+processing/behavior/MotionSeries/
+processing/behavior/MotionSeries/data  shape=(8999,) dtype=float64
+processing/behavior/MotionSeries/starting_time  shape=() dtype=float64
+processing/ophys/
+processing/ophys/Fluorescence/
+processing/ophys/Fluorescence/Baseline/
+processing/ophys/Fluorescence/Baseline/data  shape=(4463, 758) dtype=float64
+processing/ophys/Fluorescence/Baseline/timestamps  shape=(4463,) dtype=float64
+processing/ophys/Fluorescence/Deconvolved/
+processing/ophys/Fluorescence/Deconvolved/data  shape=(4463, 758) dtype=float64
+processing/ophys/Fluorescence/Deconvolved/timestamps  shape=(4463,) dtype=float64
+processing/ophys/Fluorescence/Denoised/
+processing/ophys/Fluorescence/Denoised/data  shape=(4463, 758) dtype=float64
+processing/ophys/Fluorescence/Denoised/rois  shape=(758,) dtype=int32
+processing/ophys/Fluorescence/Denoised/timestamps  shape=(4463,) dtype=float64
+processing/ophys/Fluorescence/neuropil/
+processing/ophys/Fluorescence/neuropil/data  shape=(4463, 1) dtype=float64
+processing/ophys/Fluorescence/neuropil/rois  shape=(1,) dtype=int32
+processing/ophys/Fluorescence/neuropil/timestamps  shape=(4463,) dtype=float64
+processing/ophys/ImageSegmentation/
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/id  shape=(1,) dtype=int32
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/image_mask  shape=(1, 608, 608) dtype=float64
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/reference_images/
+processing/ophys/ImageSegmentation/PlaneSegmentation/
+processing/ophys/ImageSegmentation/PlaneSegmentation/ROICentroids  shape=(758, 2) dtype=int32
+processing/ophys/ImageSegmentation/PlaneSegmentation/id  shape=(758,) dtype=int32
+processing/ophys/ImageSegmentation/PlaneSegmentation/image_mask  shape=(758, 608, 608) dtype=float64
+processing/ophys/ImageSegmentation/PlaneSegmentation/reference_images/
+processing/ophys/SegmentationImages/
+processing/ophys/SegmentationImages/maximum_projection  shape=(608, 608) dtype=float64
+session_description  shape=() dtype=object
+session_start_time  shape=() dtype=object
+stimulus/
+stimulus/presentation/
+stimulus/templates/
+timestamps_reference_time  shape=() dtype=object
+
+==============================================================================
+Ca-EEG3-4  OfflineDay2Session1  (4.62 GB)
+==============================================================================
+acquisition/
+acquisition/ActivitySignal/
+acquisition/ActivitySignal/data  shape=(300065,) dtype=float32
+acquisition/ActivitySignal/starting_time  shape=() dtype=float64
+acquisition/EEGSignal/
+acquisition/EEGSignal/data  shape=(300065,) dtype=float32
+acquisition/EEGSignal/starting_time  shape=() dtype=float64
+acquisition/EMGSignal/
+acquisition/EMGSignal/data  shape=(300065,) dtype=float32
+acquisition/EMGSignal/starting_time  shape=() dtype=float64
+acquisition/OnePhotonSeries/
+acquisition/OnePhotonSeries/data  shape=(17876, 608, 608) dtype=uint8
+acquisition/OnePhotonSeries/dimension  shape=(2,) dtype=int32
+acquisition/OnePhotonSeries/timestamps  shape=(17876,) dtype=float64
+acquisition/TemperatureSignal/
+acquisition/TemperatureSignal/data  shape=(300065,) dtype=float32
+acquisition/TemperatureSignal/starting_time  shape=() dtype=float64
+analysis/
+file_create_date  shape=(1,) dtype=object
+general/
+general/devices/
+general/devices/HD-X02, Data Science International/
+general/devices/Microscope/
+general/devices/Microscope/ROI  shape=(2,) dtype=int32
+general/experiment_description  shape=() dtype=object
+general/experimenter  shape=(1,) dtype=object
+general/institution  shape=() dtype=object
+general/keywords  shape=(8,) dtype=object
+general/lab  shape=() dtype=object
+general/optophysiology/
+general/optophysiology/ImagingPlane/
+general/optophysiology/ImagingPlane/GreenChannel/
+general/optophysiology/ImagingPlane/GreenChannel/description  shape=() dtype=object
+general/optophysiology/ImagingPlane/GreenChannel/emission_lambda  shape=() dtype=float64
+general/optophysiology/ImagingPlane/OpticalChannel/
+general/optophysiology/ImagingPlane/OpticalChannel/description  shape=() dtype=object
+general/optophysiology/ImagingPlane/OpticalChannel/emission_lambda  shape=() dtype=float64
+general/optophysiology/ImagingPlane/description  shape=() dtype=object
+general/optophysiology/ImagingPlane/excitation_lambda  shape=() dtype=float64
+general/optophysiology/ImagingPlane/imaging_rate  shape=() dtype=float64
+general/optophysiology/ImagingPlane/indicator  shape=() dtype=object
+general/optophysiology/ImagingPlane/location  shape=() dtype=object
+general/related_publications  shape=(1,) dtype=object
+general/session_id  shape=() dtype=object
+general/source_script  shape=() dtype=object
+general/subject/
+general/subject/age  shape=() dtype=object
+general/subject/description  shape=() dtype=object
+general/subject/genotype  shape=() dtype=object
+general/subject/sex  shape=() dtype=object
+general/subject/species  shape=() dtype=object
+general/subject/strain  shape=() dtype=object
+general/subject/subject_id  shape=() dtype=object
+general/surgery  shape=() dtype=object
+general/virus  shape=() dtype=object
+identifier  shape=() dtype=object
+processing/
+processing/ophys/
+processing/ophys/Fluorescence/
+processing/ophys/Fluorescence/Baseline/
+processing/ophys/Fluorescence/Baseline/data  shape=(8933, 858) dtype=float64
+processing/ophys/Fluorescence/Baseline/timestamps  shape=(8933,) dtype=float64
+processing/ophys/Fluorescence/Deconvolved/
+processing/ophys/Fluorescence/Deconvolved/data  shape=(8933, 858) dtype=float64
+processing/ophys/Fluorescence/Deconvolved/timestamps  shape=(8933,) dtype=float64
+processing/ophys/Fluorescence/Denoised/
+processing/ophys/Fluorescence/Denoised/data  shape=(8933, 858) dtype=float64
+processing/ophys/Fluorescence/Denoised/rois  shape=(858,) dtype=int32
+processing/ophys/Fluorescence/Denoised/timestamps  shape=(8933,) dtype=float64
+processing/ophys/Fluorescence/neuropil/
+processing/ophys/Fluorescence/neuropil/data  shape=(8933, 1) dtype=float64
+processing/ophys/Fluorescence/neuropil/rois  shape=(1,) dtype=int32
+processing/ophys/Fluorescence/neuropil/timestamps  shape=(8933,) dtype=float64
+processing/ophys/ImageSegmentation/
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/id  shape=(1,) dtype=int32
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/image_mask  shape=(1, 608, 608) dtype=float64
+processing/ophys/ImageSegmentation/BackgroundPlaneSegmentation/reference_images/
+processing/ophys/ImageSegmentation/PlaneSegmentation/
+processing/ophys/ImageSegmentation/PlaneSegmentation/ROICentroids  shape=(858, 2) dtype=int32
+processing/ophys/ImageSegmentation/PlaneSegmentation/id  shape=(858,) dtype=int32
+processing/ophys/ImageSegmentation/PlaneSegmentation/image_mask  shape=(858, 608, 608) dtype=float64
+processing/ophys/ImageSegmentation/PlaneSegmentation/reference_images/
+processing/ophys/SegmentationImages/
+processing/ophys/SegmentationImages/maximum_projection  shape=(608, 608) dtype=float64
+processing/sleep/
+processing/sleep/SleepIntervals/
+processing/sleep/SleepIntervals/id  shape=(36,) dtype=int32
+processing/sleep/SleepIntervals/sleep_state  shape=(36,) dtype=object
+processing/sleep/SleepIntervals/start_time  shape=(36,) dtype=float64
+processing/sleep/SleepIntervals/stop_time  shape=(36,) dtype=float64
+session_description  shape=() dtype=object
+session_start_time  shape=() dtype=object
+stimulus/
+stimulus/presentation/
+stimulus/templates/
+timestamps_reference_time  shape=() dtype=object
+
+==============================================================================
+Ca-EEG2-1  Week  (3.67 GB)
+==============================================================================
+acquisition/
+acquisition/ActivitySignal/
+acquisition/ActivitySignal/data  shape=(404395000,) dtype=float32
+acquisition/ActivitySignal/starting_time  shape=() dtype=float64
+acquisition/EEGSignal/
+acquisition/EEGSignal/data  shape=(404395000,) dtype=float32
+acquisition/EEGSignal/starting_time  shape=() dtype=float64
+acquisition/EMGSignal/
+acquisition/EMGSignal/data  shape=(404395000,) dtype=float32
+acquisition/EMGSignal/starting_time  shape=() dtype=float64
+acquisition/TemperatureSignal/
+acquisition/TemperatureSignal/data  shape=(404395000,) dtype=float32
+acquisition/TemperatureSignal/starting_time  shape=() dtype=float64
+analysis/
+file_create_date  shape=(1,) dtype=object
+general/
+general/devices/
+general/devices/HD-X02, Data Science International/
+general/experiment_description  shape=() dtype=object
+general/experimenter  shape=(1,) dtype=object
+general/institution  shape=() dtype=object
+general/keywords  shape=(8,) dtype=object
+general/lab  shape=() dtype=object
+general/related_publications  shape=(1,) dtype=object
+general/session_id  shape=() dtype=object
+general/source_script  shape=() dtype=object
+general/subject/
+general/subject/age  shape=() dtype=object
+general/subject/description  shape=() dtype=object
+general/subject/genotype  shape=() dtype=object
+general/subject/sex  shape=() dtype=object
+general/subject/species  shape=() dtype=object
+general/subject/strain  shape=() dtype=object
+general/subject/subject_id  shape=() dtype=object
+general/surgery  shape=() dtype=object
+general/virus  shape=() dtype=object
+identifier  shape=() dtype=object
+intervals/
+intervals/epochs/
+intervals/epochs/id  shape=(27,) dtype=int32
+intervals/epochs/session_ids  shape=(27,) dtype=object
+intervals/epochs/start_time  shape=(27,) dtype=float64
+intervals/epochs/stop_time  shape=(27,) dtype=float64
+processing/
+processing/cell_registration/
+processing/cell_registration/OfflineDay2Session10vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session10vsConditioningSessions/Ca_EEG2-1_FC  shape=(1326,) dtype=int32
+processing/cell_registration/OfflineDay2Session10vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1326,) dtype=int32
+processing/cell_registration/OfflineDay2Session10vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session10  shape=(1326,) dtype=int32
+processing/cell_registration/OfflineDay2Session10vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1326,) dtype=int32
+processing/cell_registration/OfflineDay2Session10vsConditioningSessions/id  shape=(1326,) dtype=int32
+processing/cell_registration/OfflineDay2Session11vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session11vsConditioningSessions/Ca_EEG2-1_FC  shape=(1492,) dtype=int32
+processing/cell_registration/OfflineDay2Session11vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1492,) dtype=int32
+processing/cell_registration/OfflineDay2Session11vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session11  shape=(1492,) dtype=int32
+processing/cell_registration/OfflineDay2Session11vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1492,) dtype=int32
+processing/cell_registration/OfflineDay2Session11vsConditioningSessions/id  shape=(1492,) dtype=int32
+processing/cell_registration/OfflineDay2Session12vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session12vsConditioningSessions/Ca_EEG2-1_FC  shape=(1474,) dtype=int32
+processing/cell_registration/OfflineDay2Session12vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1474,) dtype=int32
+processing/cell_registration/OfflineDay2Session12vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session12  shape=(1474,) dtype=int32
+processing/cell_registration/OfflineDay2Session12vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1474,) dtype=int32
+processing/cell_registration/OfflineDay2Session12vsConditioningSessions/id  shape=(1474,) dtype=int32
+processing/cell_registration/OfflineDay2Session13vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session13vsConditioningSessions/Ca_EEG2-1_FC  shape=(1429,) dtype=int32
+processing/cell_registration/OfflineDay2Session13vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1429,) dtype=int32
+processing/cell_registration/OfflineDay2Session13vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session13  shape=(1429,) dtype=int32
+processing/cell_registration/OfflineDay2Session13vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1429,) dtype=int32
+processing/cell_registration/OfflineDay2Session13vsConditioningSessions/id  shape=(1429,) dtype=int32
+processing/cell_registration/OfflineDay2Session14vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session14vsConditioningSessions/Ca_EEG2-1_FC  shape=(1411,) dtype=int32
+processing/cell_registration/OfflineDay2Session14vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1411,) dtype=int32
+processing/cell_registration/OfflineDay2Session14vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session14  shape=(1411,) dtype=int32
+processing/cell_registration/OfflineDay2Session14vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1411,) dtype=int32
+processing/cell_registration/OfflineDay2Session14vsConditioningSessions/id  shape=(1411,) dtype=int32
+processing/cell_registration/OfflineDay2Session15vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session15vsConditioningSessions/Ca_EEG2-1_FC  shape=(1413,) dtype=int32
+processing/cell_registration/OfflineDay2Session15vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1413,) dtype=int32
+processing/cell_registration/OfflineDay2Session15vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session15  shape=(1413,) dtype=int32
+processing/cell_registration/OfflineDay2Session15vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1413,) dtype=int32
+processing/cell_registration/OfflineDay2Session15vsConditioningSessions/id  shape=(1413,) dtype=int32
+processing/cell_registration/OfflineDay2Session16vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session16vsConditioningSessions/Ca_EEG2-1_FC  shape=(1445,) dtype=int32
+processing/cell_registration/OfflineDay2Session16vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1445,) dtype=int32
+processing/cell_registration/OfflineDay2Session16vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session16  shape=(1445,) dtype=int32
+processing/cell_registration/OfflineDay2Session16vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1445,) dtype=int32
+processing/cell_registration/OfflineDay2Session16vsConditioningSessions/id  shape=(1445,) dtype=int32
+processing/cell_registration/OfflineDay2Session17vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session17vsConditioningSessions/Ca_EEG2-1_FC  shape=(1406,) dtype=int32
+processing/cell_registration/OfflineDay2Session17vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1406,) dtype=int32
+processing/cell_registration/OfflineDay2Session17vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session17  shape=(1406,) dtype=int32
+processing/cell_registration/OfflineDay2Session17vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1406,) dtype=int32
+processing/cell_registration/OfflineDay2Session17vsConditioningSessions/id  shape=(1406,) dtype=int32
+processing/cell_registration/OfflineDay2Session18vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session18vsConditioningSessions/Ca_EEG2-1_FC  shape=(1333,) dtype=int32
+processing/cell_registration/OfflineDay2Session18vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1333,) dtype=int32
+processing/cell_registration/OfflineDay2Session18vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session18  shape=(1333,) dtype=int32
+processing/cell_registration/OfflineDay2Session18vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1333,) dtype=int32
+processing/cell_registration/OfflineDay2Session18vsConditioningSessions/id  shape=(1333,) dtype=int32
+processing/cell_registration/OfflineDay2Session19vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session19vsConditioningSessions/Ca_EEG2-1_FC  shape=(1350,) dtype=int32
+processing/cell_registration/OfflineDay2Session19vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1350,) dtype=int32
+processing/cell_registration/OfflineDay2Session19vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session19  shape=(1350,) dtype=int32
+processing/cell_registration/OfflineDay2Session19vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1350,) dtype=int32
+processing/cell_registration/OfflineDay2Session19vsConditioningSessions/id  shape=(1350,) dtype=int32
+processing/cell_registration/OfflineDay2Session1vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session1vsConditioningSessions/Ca_EEG2-1_FC  shape=(1395,) dtype=int32
+processing/cell_registration/OfflineDay2Session1vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1395,) dtype=int32
+processing/cell_registration/OfflineDay2Session1vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session1  shape=(1395,) dtype=int32
+processing/cell_registration/OfflineDay2Session1vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1395,) dtype=int32
+processing/cell_registration/OfflineDay2Session1vsConditioningSessions/id  shape=(1395,) dtype=int32
+processing/cell_registration/OfflineDay2Session2vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session2vsConditioningSessions/Ca_EEG2-1_FC  shape=(1489,) dtype=int32
+processing/cell_registration/OfflineDay2Session2vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1489,) dtype=int32
+processing/cell_registration/OfflineDay2Session2vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session2  shape=(1489,) dtype=int32
+processing/cell_registration/OfflineDay2Session2vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1489,) dtype=int32
+processing/cell_registration/OfflineDay2Session2vsConditioningSessions/id  shape=(1489,) dtype=int32
+processing/cell_registration/OfflineDay2Session3vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session3vsConditioningSessions/Ca_EEG2-1_FC  shape=(1426,) dtype=int32
+processing/cell_registration/OfflineDay2Session3vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1426,) dtype=int32
+processing/cell_registration/OfflineDay2Session3vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session3  shape=(1426,) dtype=int32
+processing/cell_registration/OfflineDay2Session3vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1426,) dtype=int32
+processing/cell_registration/OfflineDay2Session3vsConditioningSessions/id  shape=(1426,) dtype=int32
+processing/cell_registration/OfflineDay2Session4vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session4vsConditioningSessions/Ca_EEG2-1_FC  shape=(1394,) dtype=int32
+processing/cell_registration/OfflineDay2Session4vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1394,) dtype=int32
+processing/cell_registration/OfflineDay2Session4vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session4  shape=(1394,) dtype=int32
+processing/cell_registration/OfflineDay2Session4vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1394,) dtype=int32
+processing/cell_registration/OfflineDay2Session4vsConditioningSessions/id  shape=(1394,) dtype=int32
+processing/cell_registration/OfflineDay2Session5vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session5vsConditioningSessions/Ca_EEG2-1_FC  shape=(1477,) dtype=int32
+processing/cell_registration/OfflineDay2Session5vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1477,) dtype=int32
+processing/cell_registration/OfflineDay2Session5vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session5  shape=(1477,) dtype=int32
+processing/cell_registration/OfflineDay2Session5vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1477,) dtype=int32
+processing/cell_registration/OfflineDay2Session5vsConditioningSessions/id  shape=(1477,) dtype=int32
+processing/cell_registration/OfflineDay2Session6vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session6vsConditioningSessions/Ca_EEG2-1_FC  shape=(1509,) dtype=int32
+processing/cell_registration/OfflineDay2Session6vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1509,) dtype=int32
+processing/cell_registration/OfflineDay2Session6vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session6  shape=(1509,) dtype=int32
+processing/cell_registration/OfflineDay2Session6vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1509,) dtype=int32
+processing/cell_registration/OfflineDay2Session6vsConditioningSessions/id  shape=(1509,) dtype=int32
+processing/cell_registration/OfflineDay2Session7vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session7vsConditioningSessions/Ca_EEG2-1_FC  shape=(1437,) dtype=int32
+processing/cell_registration/OfflineDay2Session7vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1437,) dtype=int32
+processing/cell_registration/OfflineDay2Session7vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session7  shape=(1437,) dtype=int32
+processing/cell_registration/OfflineDay2Session7vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1437,) dtype=int32
+processing/cell_registration/OfflineDay2Session7vsConditioningSessions/id  shape=(1437,) dtype=int32
+processing/cell_registration/OfflineDay2Session8vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session8vsConditioningSessions/Ca_EEG2-1_FC  shape=(1433,) dtype=int32
+processing/cell_registration/OfflineDay2Session8vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1433,) dtype=int32
+processing/cell_registration/OfflineDay2Session8vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session8  shape=(1433,) dtype=int32
+processing/cell_registration/OfflineDay2Session8vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1433,) dtype=int32
+processing/cell_registration/OfflineDay2Session8vsConditioningSessions/id  shape=(1433,) dtype=int32
+processing/cell_registration/OfflineDay2Session9vsConditioningSessions/
+processing/cell_registration/OfflineDay2Session9vsConditioningSessions/Ca_EEG2-1_FC  shape=(1537,) dtype=int32
+processing/cell_registration/OfflineDay2Session9vsConditioningSessions/Ca_EEG2-1_NeutralExposure  shape=(1537,) dtype=int32
+processing/cell_registration/OfflineDay2Session9vsConditioningSessions/Ca_EEG2-1_OfflineDay2Session9  shape=(1537,) dtype=int32
+processing/cell_registration/OfflineDay2Session9vsConditioningSessions/Ca_EEG2-1_Recall1  shape=(1537,) dtype=int32
+processing/cell_registration/OfflineDay2Session9vsConditioningSessions/id  shape=(1537,) dtype=int32
+session_description  shape=() dtype=object
+session_start_time  shape=() dtype=object
+stimulus/
+stimulus/presentation/
+stimulus/templates/
+timestamps_reference_time  shape=() dtype=object

@@ -1,0 +1,310 @@
+{
+ "ensemble_percent": 25,
+ "cells_used": {
+  "Ca-EEG2-1": 166,
+  "Ca-EEG3-4": 223
+ },
+ "pairs_equal_window": [
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "ratio_to_chance": 1.7464008859357696
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "ratio_to_chance": 1.129251700680272
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "ratio_to_chance": 1.1949058693244738
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "ratio_to_chance": 1.4221938775510203
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "ratio_to_chance": 1.4221938775510203
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall2",
+   "ratio_to_chance": 1.7066326530612246
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall3",
+   "ratio_to_chance": 1.5644132653061225
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "ratio_to_chance": 1.7066326530612246
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall2",
+   "ratio_to_chance": 1.5644132653061225
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall3",
+   "ratio_to_chance": 1.4933035714285714
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall2",
+   "ratio_to_chance": 1.4933035714285714
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall3",
+   "ratio_to_chance": 1.7066326530612246
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall2",
+   "session_b": "Recall3",
+   "ratio_to_chance": 1.9910714285714286
+  }
+ ],
+ "pairs": [
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "days_apart": 2,
+   "same_context": false,
+   "active_a": 42,
+   "active_b": 43,
+   "observed": 22,
+   "expected": 10.879518072289157,
+   "ratio_to_chance": 2.0221483942414173,
+   "ratio_ci_low": 1.5505345471521943,
+   "ratio_ci_high": 2.6122468088931496,
+   "jaccard": 0.3492063492063492,
+   "p_exact": 1.50323066024147e-05,
+   "p_shuffle": 0.0
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "days_apart": 3,
+   "same_context": false,
+   "active_a": 42,
+   "active_b": 43,
+   "observed": 18,
+   "expected": 10.879518072289157,
+   "ratio_to_chance": 1.654485049833887,
+   "ratio_ci_low": 1.19438795001295,
+   "ratio_ci_high": 2.15369944492442,
+   "jaccard": 0.26865671641791045,
+   "p_exact": 0.004281429359645548,
+   "p_shuffle": 0.0
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "days_apart": 1,
+   "same_context": true,
+   "active_a": 43,
+   "active_b": 43,
+   "observed": 16,
+   "expected": 11.13855421686747,
+   "ratio_to_chance": 1.4364521362898863,
+   "ratio_ci_low": 0.9673097251585624,
+   "ratio_ci_high": 1.9701325034803099,
+   "jaccard": 0.22857142857142856,
+   "p_exact": 0.04106428541843514,
+   "p_shuffle": 0.039
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "days_apart": 2,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 20,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.4221938775510203,
+   "ratio_ci_low": 1.0304058354799304,
+   "ratio_ci_high": 1.898296062836461,
+   "jaccard": 0.21739130434782608,
+   "p_exact": 0.02840878464434886,
+   "p_shuffle": 0.034
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "days_apart": 3,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 24,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.7066326530612246,
+   "ratio_ci_low": 1.2799914712153517,
+   "ratio_ci_high": 2.189878312803285,
+   "jaccard": 0.2727272727272727,
+   "p_exact": 0.000556924298784776,
+   "p_shuffle": 0.002
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall2",
+   "days_apart": 4,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 24,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.7066326530612246,
+   "ratio_ci_low": 1.294833489395571,
+   "ratio_ci_high": 2.1847276174620793,
+   "jaccard": 0.2727272727272727,
+   "p_exact": 0.000556924298784776,
+   "p_shuffle": 0.0
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall3",
+   "days_apart": 5,
+   "same_context": true,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 23,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.6355229591836735,
+   "ratio_ci_low": 1.2185286535291004,
+   "ratio_ci_high": 2.1070736059575346,
+   "jaccard": 0.25842696629213485,
+   "p_exact": 0.0017343442008116161,
+   "p_shuffle": 0.001
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "days_apart": 1,
+   "same_context": true,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 24,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.7066326530612246,
+   "ratio_ci_low": 1.3040745126990474,
+   "ratio_ci_high": 2.1495937362601634,
+   "jaccard": 0.2727272727272727,
+   "p_exact": 0.000556924298784776,
+   "p_shuffle": 0.001
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall2",
+   "days_apart": 2,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 27,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.9199617346938775,
+   "ratio_ci_low": 1.514035943953311,
+   "ratio_ci_high": 2.4336224141295864,
+   "jaccard": 0.3176470588235294,
+   "p_exact": 9.83543030095176e-06,
+   "p_shuffle": 0.0
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall3",
+   "days_apart": 3,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 19,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.3510841836734695,
+   "ratio_ci_low": 0.9580496777658432,
+   "ratio_ci_high": 1.7847675127743405,
+   "jaccard": 0.20430107526881722,
+   "p_exact": 0.059101158065017076,
+   "p_shuffle": 0.065
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall2",
+   "days_apart": 1,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 32,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 2.2755102040816326,
+   "ratio_ci_low": 1.8429443532319953,
+   "ratio_ci_high": 2.827919903024175,
+   "jaccard": 0.4,
+   "p_exact": 1.330349974106845e-09,
+   "p_shuffle": 0.0
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall3",
+   "days_apart": 2,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 28,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 1.9910714285714286,
+   "ratio_ci_low": 1.5648144736842104,
+   "ratio_ci_high": 2.4712839383545466,
+   "jaccard": 0.3333333333333333,
+   "p_exact": 2.0682316433420404e-06,
+   "p_shuffle": 0.0
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall2",
+   "session_b": "Recall3",
+   "days_apart": 1,
+   "same_context": false,
+   "active_a": 56,
+   "active_b": 56,
+   "observed": 30,
+   "expected": 14.062780269058296,
+   "ratio_to_chance": 2.1332908163265305,
+   "ratio_ci_low": 1.7153846153846155,
+   "ratio_ci_high": 2.6461625929441537,
+   "jaccard": 0.36585365853658536,
+   "p_exact": 6.576321244646226e-08,
+   "p_shuffle": 0.0
+  }
+ ]
+}

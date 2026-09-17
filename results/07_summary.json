@@ -1,0 +1,237 @@
+{
+ "behaviour": [
+  {
+   "subject": "Ca-EEG2-1",
+   "session": "NeutralExposure",
+   "day": 1,
+   "context": "neutral",
+   "freezing_percent": 10.457516339869281,
+   "mean_motion": 793.890869140625,
+   "freezing_bouts": 43
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session": "FC",
+   "day": 3,
+   "context": "shock",
+   "freezing_percent": 1.2863534675615214,
+   "mean_motion": 1031.7347412109375,
+   "freezing_bouts": 22
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session": "Recall1",
+   "day": 4,
+   "context": "shock",
+   "freezing_percent": 63.52229442079319,
+   "mean_motion": 118.3841323852539,
+   "freezing_bouts": 58
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session": "NeutralExposure",
+   "day": 1,
+   "context": "neutral",
+   "freezing_percent": 9.556848701880035,
+   "mean_motion": 834.5493774414062,
+   "freezing_bouts": 56
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session": "FC",
+   "day": 3,
+   "context": "shock",
+   "freezing_percent": 0.7829977628635347,
+   "mean_motion": 879.9330444335938,
+   "freezing_bouts": 21
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session": "Recall1",
+   "day": 4,
+   "context": "shock",
+   "freezing_percent": 8.49204570916424,
+   "mean_motion": 754.6488037109375,
+   "freezing_bouts": 33
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session": "Recall2",
+   "day": 5,
+   "context": "novel",
+   "freezing_percent": 14.522635589421784,
+   "mean_motion": 629.2194213867188,
+   "freezing_bouts": 41
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session": "Recall3",
+   "day": 6,
+   "context": "neutral",
+   "freezing_percent": 16.872059153036073,
+   "mean_motion": 600.9412841796875,
+   "freezing_bouts": 45
+  }
+ ],
+ "links": {
+  "Ca-EEG2-1": {
+   "session_pairs": 3,
+   "spearman_freezing_difference_vs_similarity": -0.5,
+   "p_value": 0.6666666666666666,
+   "largest_change_from_dropping_frozen_frames": 0.025458382978932215,
+   "mean_change_from_dropping_frozen_frames": -0.005381230125860124
+  },
+  "Ca-EEG3-4": {
+   "session_pairs": 10,
+   "spearman_freezing_difference_vs_similarity": -0.4545454545454545,
+   "p_value": 0.18690481034933198,
+   "largest_change_from_dropping_frozen_frames": 0.08101607394225446,
+   "mean_change_from_dropping_frozen_frames": -0.02293449864202835
+  }
+ },
+ "freezing_check": [
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "days_apart": 2,
+   "same_context": false,
+   "pearson_all_frames": 0.34098744892307453,
+   "pearson_moving_only": 0.3291405463193065,
+   "freezing_difference": 9.17116287230776,
+   "change": -0.011846902603768028
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "days_apart": 3,
+   "same_context": false,
+   "pearson_all_frames": 0.2301021013123707,
+   "pearson_moving_only": 0.20464371833343847,
+   "freezing_difference": 53.06477808092391,
+   "change": -0.025458382978932215
+  },
+  {
+   "subject": "Ca-EEG2-1",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "days_apart": 1,
+   "same_context": true,
+   "pearson_all_frames": 0.2401512369072771,
+   "pearson_moving_only": 0.261312832112397,
+   "freezing_difference": 62.23594095323167,
+   "change": 0.02116159520511987
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "FC",
+   "days_apart": 2,
+   "same_context": false,
+   "pearson_all_frames": 0.33494112442622814,
+   "pearson_moving_only": 0.3260239505106089,
+   "freezing_difference": 8.773850939016501,
+   "change": -0.008917173915619248
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall1",
+   "days_apart": 3,
+   "same_context": false,
+   "pearson_all_frames": 0.3921635425061723,
+   "pearson_moving_only": 0.38961942663068305,
+   "freezing_difference": 1.064802992715796,
+   "change": -0.00254411587548925
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall2",
+   "days_apart": 4,
+   "same_context": false,
+   "pearson_all_frames": 0.29510436662707895,
+   "pearson_moving_only": 0.3075765708635325,
+   "freezing_difference": 4.965786887541748,
+   "change": 0.012472204236453566
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "NeutralExposure",
+   "session_b": "Recall3",
+   "days_apart": 5,
+   "same_context": true,
+   "pearson_all_frames": 0.30444413497618966,
+   "pearson_moving_only": 0.27397183345679943,
+   "freezing_difference": 7.315210451156037,
+   "change": -0.030472301519390232
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall1",
+   "days_apart": 1,
+   "same_context": true,
+   "pearson_all_frames": 0.46816597543774024,
+   "pearson_moving_only": 0.4585960471417201,
+   "freezing_difference": 7.7090479463007044,
+   "change": -0.009569928296020158
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall2",
+   "days_apart": 2,
+   "same_context": false,
+   "pearson_all_frames": 0.3905958753747513,
+   "pearson_moving_only": 0.3654130655324229,
+   "freezing_difference": 13.73963782655825,
+   "change": -0.025182809842328402
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "FC",
+   "session_b": "Recall3",
+   "days_apart": 3,
+   "same_context": false,
+   "pearson_all_frames": 0.27086283871676675,
+   "pearson_moving_only": 0.24767384587671912,
+   "freezing_difference": 16.08906139017254,
+   "change": -0.023188992840047634
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall2",
+   "days_apart": 1,
+   "same_context": false,
+   "pearson_all_frames": 0.5715407066716879,
+   "pearson_moving_only": 0.562262951333262,
+   "freezing_difference": 6.030589880257544,
+   "change": -0.009277755338425897
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall1",
+   "session_b": "Recall3",
+   "days_apart": 2,
+   "same_context": false,
+   "pearson_all_frames": 0.3833701943428298,
+   "pearson_moving_only": 0.331722155255668,
+   "freezing_difference": 8.380013443871833,
+   "change": -0.05164803908716181
+  },
+  {
+   "subject": "Ca-EEG3-4",
+   "session_a": "Recall2",
+   "session_b": "Recall3",
+   "days_apart": 1,
+   "same_context": false,
+   "pearson_all_frames": 0.47407585227484156,
+   "pearson_moving_only": 0.3930597783325871,
+   "freezing_difference": 2.3494235636142893,
+   "change": -0.08101607394225446
+  }
+ ]
+}
